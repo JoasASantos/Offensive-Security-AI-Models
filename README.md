@@ -4,6 +4,8 @@ Curated list of open-weight uncensored models for authorized red team operations
 
 > All data sourced from HuggingFace model cards and official publications. Sep 2026.
 
+<img width="4000" height="1568" alt="offsec-benchmark-v3" src="https://github.com/user-attachments/assets/3a0e3514-6805-4cf5-8400-628178df538c" />
+
 ---
 
 ## Security Fine-tuned Models
