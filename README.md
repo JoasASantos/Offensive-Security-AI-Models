@@ -538,6 +538,7 @@ Curated list of open-weight uncensored models for authorized red team operations
 | **[OrcaRouter](https://www.orcarouter.ai/)** | AI gateway with adaptive routing across 200+ models. Zero token markup, OpenAI-compatible endpoint. Own abliterated models (Qwen3.8, GLM-5.3). | Yes, hosts own abliterated variants | $0 token markup, BYOK or pay-as-you-go | OpenAI-compatible |
 | **[Featherless AI](https://featherless.ai/)** | Serverless LLM hosting, HuggingFace's largest inference provider (6,700+ models). Supports uncensored/abliterated models natively. | Yes, 40K+ models including uncensored | $25/mo (32K ctx) or $50 credits/mo (256K ctx) | OpenAI-compatible |
 | **[Together AI](https://www.together.ai/)** | Production inference platform, supports open models including uncensored variants. | Select open models | Pay-per-token | OpenAI-compatible |
+| **[InterOdin](https://interodin.com/en)** | API for Odin v1, an uncensored model aimed at security research. No prompt storage, EUR or USD billing. | Yes, own hosted model (weights not released) | Prepaid pay-per-token, credits do not expire | OpenAI-compatible |
 
 ### GPU Cloud (Self-Hosted)
 
