@@ -380,7 +380,8 @@ Curated list of open-weight uncensored models for authorized red team operations
 | Tool Calling | Yes |
 | License | MIT |
 
-**Download:** [https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8)
+**Download:** [https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8)  
+**Hosted API:** [AbliteratedLLM](https://abliteratedllm.dev/models/glm-5.3-cyber-abliterated) serves these weights in FP8 as `glm-5.3-cyber-abliterated` (OpenAI-compatible, 1M context)
 
 ---
 
@@ -538,6 +539,7 @@ Curated list of open-weight uncensored models for authorized red team operations
 | **[OrcaRouter](https://www.orcarouter.ai/)** | AI gateway with adaptive routing across 200+ models. Zero token markup, OpenAI-compatible endpoint. Own abliterated models (Qwen3.8, GLM-5.3). | Yes, hosts own abliterated variants | $0 token markup, BYOK or pay-as-you-go | OpenAI-compatible |
 | **[Featherless AI](https://featherless.ai/)** | Serverless LLM hosting, HuggingFace's largest inference provider (6,700+ models). Supports uncensored/abliterated models natively. | Yes, 40K+ models including uncensored | $25/mo (32K ctx) or $50 credits/mo (256K ctx) | OpenAI-compatible |
 | **[Together AI](https://www.together.ai/)** | Production inference platform, supports open models including uncensored variants. | Select open models | Pay-per-token | OpenAI-compatible |
+| **[AbliteratedLLM](https://abliteratedllm.dev/)** | Inference API for abliterated open-weight models, including GLM-5.3 Cyber Abliterated (dealignai/GLM-5.3-CYBERSECURITY-FP8 weights, 1M context) and GLM-5.3 Flash Abliterated (orcarouter/GLM-5.3-Flash-Uncensored-FP8 weights). Also serves stock models with vendor weights. No KYC; prompts and outputs are not stored (one exception, described in its privacy policy). | Yes, hosts abliterated GLM-5.3 variants | Prepaid pay-per-token, crypto or card (GLM-5.3 Cyber $0.90 / $1.80 per 1M) | OpenAI-compatible, Anthropic Messages |
 
 ### GPU Cloud (Self-Hosted)
 
