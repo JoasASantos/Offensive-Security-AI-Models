@@ -538,6 +538,7 @@ Curated list of open-weight uncensored models for authorized red team operations
 | **[OrcaRouter](https://www.orcarouter.ai/)** | AI gateway with adaptive routing across 200+ models. Zero token markup, OpenAI-compatible endpoint. Own abliterated models (Qwen3.8, GLM-5.3). | Yes, hosts own abliterated variants | $0 token markup, BYOK or pay-as-you-go | OpenAI-compatible |
 | **[Featherless AI](https://featherless.ai/)** | Serverless LLM hosting, HuggingFace's largest inference provider (6,700+ models). Supports uncensored/abliterated models natively. | Yes, 40K+ models including uncensored | $25/mo (32K ctx) or $50 credits/mo (256K ctx) | OpenAI-compatible |
 | **[Together AI](https://www.together.ai/)** | Production inference platform, supports open models including uncensored variants. | Select open models | Pay-per-token | OpenAI-compatible |
+| **[Morse](https://trymorse.ai/inference/?src=gh-offsecai)** | Private inference API with zero data retention on every tier: prompts and replies are never stored. Runs behind an open-source enclave you can check with `npx @askmorse/verify inference.trymorse.ai`. | Yes, DeepSeek V4.1 Flash 1017 Uncensored (`deepseek-ai/deepseek-v4.1-flash-1017-abliterated`, 1M context, text and image in, reasoning), plus uncensored Kimi K3.1 Pro and GLM-5.3 | Pay-as-you-go from $5, card, no KYC (DeepSeek V4.1 Flash Uncensored $0.375 / $1.50 per 1M) | OpenAI-compatible, Anthropic Messages, Responses |
 
 ### GPU Cloud (Self-Hosted)
 
