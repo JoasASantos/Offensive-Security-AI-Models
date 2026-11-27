@@ -380,7 +380,8 @@ Curated list of open-weight uncensored models for authorized red team operations
 | Tool Calling | Yes |
 | License | MIT |
 
-**Download:** [https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8)
+**Download:** [https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8](https://huggingface.co/dealignai/GLM-5.3-CYBERSECURITY-FP8)  
+**Hosted API:** [AbliteratedLLM](https://abliteratedllm.dev/models/glm-5.3-cyber-abliterated) serves these weights in FP8 as `glm-5.3-cyber-abliterated` (OpenAI-compatible, 1M context)
 
 ---
 
@@ -539,6 +540,9 @@ Curated list of open-weight uncensored models for authorized red team operations
 | **[Featherless AI](https://featherless.ai/)** | Serverless LLM hosting, HuggingFace's largest inference provider (6,700+ models). Supports uncensored/abliterated models natively. | Yes, 40K+ models including uncensored | $25/mo (32K ctx) or $50 credits/mo (256K ctx) | OpenAI-compatible |
 | **[Together AI](https://www.together.ai/)** | Production inference platform, supports open models including uncensored variants. | Select open models | Pay-per-token | OpenAI-compatible |
 | **[Heabsy](https://heabsy.com/models)** | EU inference API, OpenAI-compatible. Own security fine-tune CyberHeabsy (1M context, vision, tool calling, reasoning) and uncensored builds of Qwen3.8 27B, GLM-5.3 Flash and DeepSeek V4.1 Flash via the same API. Prompts and completions are not stored on its own models. | Yes, own CyberHeabsy plus uncensored variants | Pay-per-token (CyberHeabsy $1.50 / $4.50 per 1M) | OpenAI-compatible |
+| **[InterOdin](https://interodin.com/en)** | API for Odin v1, an uncensored model aimed at security research. No prompt storage, EUR or USD billing. | Yes, own hosted model (weights not released) | Prepaid pay-per-token, credits do not expire | OpenAI-compatible |
+| **[AbliteratedLLM](https://abliteratedllm.dev/)** | Inference API for abliterated open-weight models, including GLM-5.3 Cyber Abliterated (dealignai/GLM-5.3-CYBERSECURITY-FP8 weights, 1M context) and GLM-5.3 Flash Abliterated (orcarouter/GLM-5.3-Flash-Uncensored-FP8 weights). Also serves stock models with vendor weights. No KYC; prompts and outputs are not stored (one exception, described in its privacy policy). | Yes, hosts abliterated GLM-5.3 variants | Prepaid pay-per-token, crypto or card (GLM-5.3 Cyber $0.90 / $1.80 per 1M) | OpenAI-compatible, Anthropic Messages |
+| **[Morse](https://trymorse.ai/inference/)** | Private inference API with zero data retention on every tier: prompts and replies are never stored. Runs behind an open-source enclave you can check with `npx @askmorse/verify inference.trymorse.ai`. | Yes, DeepSeek V4.1 Flash 1017 Uncensored (`deepseek-ai/deepseek-v4.1-flash-1017-abliterated`, 1M context, text and image in, reasoning), plus uncensored Kimi K3.1 Pro and GLM-5.3 | Pay-as-you-go from $5, card, no KYC (DeepSeek V4.1 Flash Uncensored $0.375 / $1.50 per 1M) | OpenAI-compatible, Anthropic Messages, Responses |
 
 ### GPU Cloud (Self-Hosted)
 
