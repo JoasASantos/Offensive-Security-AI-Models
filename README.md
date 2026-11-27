@@ -538,6 +538,7 @@ Curated list of open-weight uncensored models for authorized red team operations
 | **[OrcaRouter](https://www.orcarouter.ai/)** | AI gateway with adaptive routing across 200+ models. Zero token markup, OpenAI-compatible endpoint. Own abliterated models (Qwen3.8, GLM-5.3). | Yes, hosts own abliterated variants | $0 token markup, BYOK or pay-as-you-go | OpenAI-compatible |
 | **[Featherless AI](https://featherless.ai/)** | Serverless LLM hosting, HuggingFace's largest inference provider (6,700+ models). Supports uncensored/abliterated models natively. | Yes, 40K+ models including uncensored | $25/mo (32K ctx) or $50 credits/mo (256K ctx) | OpenAI-compatible |
 | **[Together AI](https://www.together.ai/)** | Production inference platform, supports open models including uncensored variants. | Select open models | Pay-per-token | OpenAI-compatible |
+| **[Heabsy](https://heabsy.com/models)** | EU inference API, OpenAI-compatible. Own security fine-tune CyberHeabsy (1M context, vision, tool calling, reasoning) and uncensored builds of Qwen3.8 27B, GLM-5.3 Flash and DeepSeek V4.1 Flash via the same API. Prompts and completions are not stored on its own models. | Yes, own CyberHeabsy plus uncensored variants | Pay-per-token (CyberHeabsy $1.50 / $4.50 per 1M) | OpenAI-compatible |
 
 ### GPU Cloud (Self-Hosted)
 
